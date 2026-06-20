@@ -30,5 +30,7 @@ If the repository is created through the GitHub website first, run:
 
 ```bash
 git remote set-url origin https://github.com/Yuqiu-rgb/ProtSyntax.git
-git push -u origin main
+git push -u origin main --force-with-lease
 ```
+
+The force-with-lease option is used because a GitHub-created repository may already contain a seed commit, such as an initial license file, while this local release branch contains the complete source tree.

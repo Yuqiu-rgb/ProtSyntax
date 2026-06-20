@@ -30,4 +30,6 @@ else
   git remote add origin "${REMOTE_URL}"
 fi
 
-git push -u origin main
+# GitHub-created repositories often contain a seed commit from a selected
+# README/license/gitignore. The local release history is authoritative here.
+git push -u origin main --force-with-lease
