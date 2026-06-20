@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "ProtSyntax: a protein large language model for decoding post-translational modification syntax and function"
+message: "If you use ProtSyntax, please cite the accompanying manuscript."
+type: software
+authors:
+  - family-names: Lin
+    given-names: Yiyu
+license: Apache-2.0
+date-released: "2026-06-20"

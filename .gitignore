@@ -1,0 +1,24 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Manuscript source files were used to prepare README figures and are not part of the code release.
+*.docx
+/*.png
+
+# Local data and model artifacts.
+data_cache/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+Model_weight/*
+!Model_weight/README.md
