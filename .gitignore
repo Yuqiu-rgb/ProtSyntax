@@ -16,6 +16,7 @@ venv/
 data_cache/
 checkpoints/
 *.zip
+ProtSyntax-release/
 *.pt
 *.pth
 *.ckpt
