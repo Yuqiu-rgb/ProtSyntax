@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "protsyntax"
+version = "0.1.0"
+description = "ProtSyntax: a PTM-aware protein language model for decoding post-translational modification syntax and function"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Yiyu Lin", email = "2359448439@qq.com" }
+]
+keywords = [
+  "protein language model",
+  "post-translational modification",
+  "PTM",
+  "bioinformatics",
+  "deep learning"
+]
+dependencies = [
+  "torch>=2.2",
+  "transformers>=4.40",
+  "numpy>=1.24",
+  "biopython>=1.83",
+  "datasets>=2.18",
+  "safetensors>=0.4",
+  "accelerate>=0.29"
+]
+
+[project.urls]
+Homepage = "https://github.com/Yuqiu-rgb/ProtSyntax"
+Dataset = "https://huggingface.co/datasets/Ethan-Lin/PTMBenchmark-ProtSyntax"
+
+[tool.setuptools]
+packages = ["Core_code"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

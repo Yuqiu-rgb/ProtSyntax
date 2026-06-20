@@ -22,6 +22,8 @@ ProtSyntax is a protein large language model designed to learn the regulatory gr
 
 The repository contains the core ProtSyntax modules, a lightweight inference demo, visual material extracted from the manuscript, and documentation for the public dataset and external model weights.
 
+For model scope, limitations, and recommended reporting practice, see [MODEL_CARD.md](MODEL_CARD.md).
+
 ## Highlights
 
 | Capability | ProtSyntax target |
@@ -122,7 +124,9 @@ ProtSyntax/
 |-- Data/                   # Dataset card and loading instructions
 |-- Model_weight/           # Model-weight release policy; checkpoints are not tracked by git
 |-- assets/figures/         # README figures extracted and optimized from the manuscript
+|-- docs/                   # Release checklist and review-facing notes
 |-- demo.py                 # Minimal prediction demo
+|-- MODEL_CARD.md           # Intended use, limitations, and reporting guidance
 |-- requirements.txt        # Runtime dependencies
 |-- CITATION.cff            # Citation metadata
 `-- LICENSE                 # Apache-2.0
