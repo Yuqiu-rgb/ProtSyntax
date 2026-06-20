@@ -15,6 +15,7 @@ venv/
 # Local data and model artifacts.
 data_cache/
 checkpoints/
+*.zip
 *.pt
 *.pth
 *.ckpt
