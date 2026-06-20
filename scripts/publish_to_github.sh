@@ -31,5 +31,11 @@ else
 fi
 
 # GitHub-created repositories often contain a seed commit from a selected
-# README/license/gitignore. The local release history is authoritative here.
-git push -u origin main --force-with-lease
+# README/license/gitignore. The local release history is authoritative here,
+# but keep the lease explicit so we only overwrite the ref we inspected.
+REMOTE_MAIN_SHA="$(git ls-remote --heads origin main | awk '{print $1}')"
+if [[ -n "${REMOTE_MAIN_SHA}" ]]; then
+  git push -u origin main --force-with-lease="refs/heads/main:${REMOTE_MAIN_SHA}"
+else
+  git push -u origin main
+fi
