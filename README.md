@@ -125,6 +125,7 @@ ProtSyntax/
 |-- Model_weight/           # Model-weight release policy; checkpoints are not tracked by git
 |-- assets/figures/         # README figures extracted and optimized from the manuscript
 |-- docs/                   # Release checklist and review-facing notes
+|-- scripts/                # Optional local release helpers
 |-- demo.py                 # Minimal prediction demo
 |-- MODEL_CARD.md           # Intended use, limitations, and reporting guidance
 |-- requirements.txt        # Runtime dependencies

@@ -6,6 +6,7 @@ Use this checklist before making a public release for manuscript review.
 
 - [ ] Confirm the repository is public.
 - [ ] Confirm the default branch is `main`.
+- [ ] Publish with `bash scripts/publish_to_github.sh` after `gh auth login`, or create the target repository on GitHub and run the manual commands in `docs/github_publish.md`.
 - [ ] Confirm `README.md` renders figures correctly on GitHub.
 - [ ] Confirm Apache-2.0 license metadata appears in GitHub.
 - [ ] Confirm manuscript source files and local model checkpoints are not tracked.
