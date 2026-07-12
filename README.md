@@ -192,7 +192,7 @@ If you use ProtSyntax in academic work, please cite the accompanying manuscript:
 ```bibtex
 @article{lin2026protsyntax,
   title   = {ProtSyntax: a protein large language model for decoding post-translational modification syntax and function},
-  author  = {Lin, Yiyu},
+  author  = {Yiyu Lin},
   year    = {2026},
   note    = {Manuscript in preparation}
 }
