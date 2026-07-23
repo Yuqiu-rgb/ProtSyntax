@@ -18,7 +18,7 @@
 
 ## Overview
 
-ProtSyntax is a protein large language model designed to learn the regulatory grammar of post-translational modifications (PTMs). Instead of treating PTM prediction as isolated site annotation, ProtSyntax models residue chemistry, long-range sequence context, folded structural microenvironments, PTM crosstalk, and protein-level functional consequences in one shared representation.
+ProtSyntax is a protein large language model designed to learn the regulatory grammar of post-translational modifications (PTMs). Instead of treating PTM prediction as isolated site annotation, ProtSyntax models residue chemistry, long-range sequence context, folded structural microenvironments, PTM crosstalk, and protein-level functional consequences in one shared representation. ProtSyntax is currently under peer review. The preprint is available for those interested in reading the paper. DOI:https://doi.org/10.64898/2026.07.18.739331
 
 The repository contains the core ProtSyntax modules, a lightweight inference demo, visual material extracted from the manuscript, and documentation for the public dataset and external model weights.
 
@@ -194,6 +194,6 @@ If you use ProtSyntax in academic work, please cite the accompanying manuscript:
   title   = {ProtSyntax: a protein large language model for decoding post-translational modification syntax and function},
   author  = {Yiyu Lin},
   year    = {2026},
-  note    = {Manuscript in preparation}
+  note    = {preprint,DOI:https://doi.org/10.64898/2026.07.18.739331}
 }
 ```
