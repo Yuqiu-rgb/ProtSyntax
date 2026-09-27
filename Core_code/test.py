@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 """Evaluate ProtSyntax, profile protein PTM sites, and predict enzyme kinetics.
 
-References: main text, Sections 4.1-4.4; Supplementary Materials, Sections 2.2
-and 4.7.2, and Table S12. Place this file beside ProtSyntax_Train.py to reuse
-the model architecture and batch tensor conventions.
 
 The test directory contains metadata.pt, partitions.json, and test_batches.pt.
 Test records inherit the global partition assignments shared by all supervision
