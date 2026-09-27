@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """Train ProtSyntax with a shared sequence-structure backbone and PACE-Nash.
 
-References: main text, Sections 4.1-4.4; Supplementary Materials, Sections 2.2,
-3.1-3.4 and 4.7.2, and Table S12.
 
 Input files:
     metadata.pt       Vocabulary, frozen amino acid properties, descriptors for
